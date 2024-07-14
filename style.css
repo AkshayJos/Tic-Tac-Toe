@@ -15,7 +15,7 @@ h1:hover{
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  gap: 4vmin;
+  gap: 35px;
   font-family: 'Times New Roman', Times, serif;
      
 }
@@ -48,39 +48,39 @@ h1:hover{
 
 #resetbtn{
   height: 6vmin;
-  width: 16vmin;
+    width: 27vmin;
   border:2px solid black ;
   border-radius: 3vmin;
   background-color: black;
   color: #DAD7CD;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
   box-shadow:-3px -3px 7px #80c07f, 4px 4px 7px black;
 }
 #newbtn{
-    height: 6vmin;
-    width: 16vmin;
+  height: 6vmin;
+  width: 27vmin;
     border:2px solid black ;
     border-radius: 3vmin;
     background-color: black;
     color: #DAD7CD;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     box-shadow:-3px -3px 7px #80c07f, 4px 4px 7px black;
   }
 
   #changebtn{
     height: 6vmin;
-    width: 20vmin;
+    width: 30vmin;
     margin-top: 25px;
     border:2px solid black ;
     border-radius: 3vmin;
     background-color: black;
     color: #DAD7CD;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     box-shadow:-3px -3px 7px #80c07f, 4px 4px 7px black;
   }
@@ -111,31 +111,27 @@ h1:hover{
     align-items: center;
     flex-direction: column;
   }
-    
-  #unameO{
-    text-align: center;
-   border-radius: 3vmin;
-   border: 3px solid black;
-   background-color: #DAD7CD;
-   font-size: large;
-   font-family: 'Times New Roman', Times, serif;
-  }
 
   #unameO{
     text-align: center;
    border-radius: 3vmin;
-   /* border: 3px solid black; */
+   height: 50px;
+   width: 50vmin;
    border : none;
    background-color: #DAD7CD;
    font-size: larger;
    font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
    color: rgb(0, 32, 0);
    box-shadow: inset -4px -4px 3px white, inset 2px 2px 8px black;
    outline : none;
   }
+
   #unameX{
     text-align: center;
    border-radius: 3vmin;
+   height: 50px;
+   width: 50vmin;
    border: 0px solid black;
    background-color: #DAD7CD;
    font-size: larger;
@@ -149,14 +145,14 @@ h1:hover{
 
   #playbtn{
     height: 6vmin;
-    width: 16vmin;
+    width: 24vmin;
    margin-top: 50px;
     border:0px solid black ;
     border-radius: 3vmin;
     background-color: black;
     color: #DAD7CD;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     box-shadow:-3px -3px 7px #80c07f, 4px 4px 7px black;
   }
@@ -164,18 +160,18 @@ h1:hover{
   #wmsg{
     font-family: 'Times New Roman', Times, serif;
      height: 10vmin;
-     margin-bottom:5vmin ;
+     margin-bottom:50px;
   }
 
   #undobtn{
     height: 6vmin;
-    width: 18vmin;
+    width: 28vmin;
     border: 2px solid black;
     border-radius: 3vmin;
     background-color: black;
     color: #DAD7CD;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     box-shadow:-3px -3px 7px #80c07f, 4px 4px 7px black;
   }
