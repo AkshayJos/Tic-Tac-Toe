@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic_Tac_Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    
+    <div class="info-container">
+      <div class="info">
+        <h1 id="wmsg">Welcome, to Tic-Tac-Toe Game !!</h1>
+        <h2>Enter PlayerO Name :</h2>
+        <textarea id="unameO"></textarea>
+        <h2>Enter PlayerX Name :</h2>
+        <textarea id="unameX"></textarea>
+        <button id="playbtn" class="glow">Play!</button>
+      </div>
+    </div>
+
+    <div class="msg-container hide">
+      <h1 id="msg">Winner</h1>
+      <button id="newbtn" class="glow">New Game</button>
+      <button id="changebtn" class="glow">Change Name</button>
+    </div>
+
+    <div class="container hide">
+      <h1 style="margin-bottom: 20px;">Tic Tac Toe</h1>
+      <div class="game">
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+        <button class="box"></button>
+      </div>
+      <button id="undobtn" class="glow">Undo chance</button>
+      <button id="resetbtn" class="glow">Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
